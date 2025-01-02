@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blossom Breeze</title>
+    <!-- Corrected favicon with PNG format -->
+    <link rel="icon" href="./images/cherry-blossom.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css">
+    
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./images/floral-design.png" alt="Floral Design Logo" />
+        <h2>Blossom Breeze</h2>
+      </div>
+      <div class="header-list">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#produts">Products</a>
+      </div>
+      <div id="open">
+        <i class="fa-solid fa-bars" onclick="togglemenu()"></i>
+      </div>
+      <div id="close">
+        <i class="fa-solid fa-xmark" onclick="togglemenu()"></i>
+      </div>
+    </header>
+    <div class="middle-home" id="home">
+      <h2>Welcome to Blossom Breeze</h2>
+      <h1>Celebrate Life with the Beauty of Flowers</h1>
+    </div>
+    <div class="product" id="produts">
+      <h2>Our Products</h2>
+      <div class="gallery" id="product-container"></div>
+    </div>
+    <div id="about" class="about_section">
+      <h2>About us</h2>
+      <div class="text">
+        <img src="./images/img2.jpg" alt="" />
+
+        <p>
+          At <em> Blossom Breeze</em>, we bring the beauty of nature to your
+          doorstep with a wide variety of fresh, vibrant flowers for every
+          occasion. Our passionate team is dedicated to crafting stunning floral
+          arrangements that brighten your day and celebrate life's special
+          moments.
+        </p>
+      </div>
+    </div>
+
+    <div id="contact" class="contact_section">
+      <h2>Contact us</h2>
+
+      <form class="contact-form" action="" method="POST">
+        <!-- Name Field -->
+
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name here..."
+          required
+        />
+
+        <label for="phone">Phone</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter your phone here..."
+          required
+        />
+
+        <!-- Email Field -->
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email here.."
+          required
+        />
+
+        <!-- Message Field -->
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write your message here..."
+          required
+        ></textarea>
+
+        <!-- Submit Button -->
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    <footer>
+      <div class="row">
+        <div class="col">
+          <img
+            class="footerlogo"
+            src="./images/floral-design copy.png"
+            alt="Floral Logo"
+          />
+
+          <p>
+            <i class="fas fa-map-marker-alt"></i> Blossom Breeze, Street Name,
+            City
+          </p>
+          <p><i class="fas fa-phone"></i> +123 456 7890</p>
+          <p><i class="fas fa-envelope"></i> info@blossombreeze.com</p>
+        </div>
+
+        <div class="col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h3>Newsletter</h3>
+          <p>Subscribe to our newsletter to stay updated!</p>
+          <form>
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+
+        <div class="col">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <hr style="margin: 40px auto" />
+      <div style="text-align: center">copyright © 2024</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

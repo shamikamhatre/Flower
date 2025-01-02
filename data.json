@@ -1,0 +1,64 @@
+{
+    "items": [
+        {
+            "title": "12 Mix Roses",
+            "image": "./images/12 Mix Roses.jpg",
+            "price": "₹510",
+            "category": "flower"
+        },
+        {
+            "title": "Bouquet Of Orchid",
+            "image": "./images/Bouquet Of Orchid.jpg",
+            "price": "₹650",
+            "category": "flower"
+        },
+        {
+            "title": "Carnation basket",
+            "image": "./images/Carnation basket.jpg",
+            "price": "₹1,500",
+            "category": "flower"
+        },
+        {
+            "title": "Colorful Gerbera",
+            "image": "./images/Colorful Gerbera.jpg",
+            "price": "₹800",
+            "category": "flower"
+        },
+        {
+            "title": "Enchanting Lilies Bouquet",
+            "image": "./images/Enchanting Lilies Bouquet.jpg",
+            "price": "₹1,400",
+            "category": "flower"
+        },
+        {
+            "title": "Fusion Of Roses and Lilies",
+            "image": "./images/Fusion Of Roses and Lilies.jpg",
+            "price": "₹1,750",
+            "category": "flower"
+        },
+        {
+            "title": "Perfect White Lilies",
+            "image": "./images/Perfect White Lilies.jpg",
+            "price": "₹1,750",
+            "category": "flower"
+        },
+        {
+            "title": "Pink Oriental Lilies",
+            "image": "./images/Pink Oriental Lilies.jpg",
+            "price": "₹2,000",
+            "category": "flower"
+        },
+        {
+            "title": "Red roses basket",
+            "image": "./images/Red roses basket.jpg",
+            "price": "₹510",
+            "category": "flower"
+        },
+        {
+            "title": "White Scented Lily",
+            "image": "./images/White Scented Lily.jpg",
+            "price": "₹1,350",
+            "category": "flower"
+        }
+    ]
+}
